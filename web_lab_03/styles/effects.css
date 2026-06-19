@@ -1,0 +1,18 @@
+div{
+height:200px;
+margin:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:24px;
+}
+.solid{
+background:#3498db;
+}
+.gradient{
+background:linear-gradient(45deg,#ff7e5f,#feb47b);
+}
+.image-bg{
+background:url('https://picsum.photos/800/400') no-repeat center/cover;
+}

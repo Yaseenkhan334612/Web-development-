@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Selectors Practice</title>
+<link rel="stylesheet" href="../styles/main.css">
+
+<style>
+body{background:#f2f2f2;font-family:Arial;}
+#title{color:darkblue;text-align:center;}
+.text{color:green;font-style:italic;}
+p{color:#444;}
+.container span{color:purple;font-weight:bold;}
+input[type="text"]{border:2px solid orange;padding:5px;}
+a{color:blue;text-decoration:none;}
+a:hover{color:red;text-decoration:underline;}
+ul li{color:brown;margin:4px;}
+</style>
+
+</head>
+
+<body>
+
+<h1 id="title">CSS Selectors</h1>
+
+<p class="text">Paragraph styled with class selector.</p>
+<p>Another paragraph for element selector.</p>
+
+<div class="container">
+<span>Descendant selector example</span>
+</div>
+
+<input type="text" placeholder="Attribute selector example">
+<a href="#">Hover over this link</a>
+
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+
+</body>
+</html>
